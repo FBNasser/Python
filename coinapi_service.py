@@ -120,3 +120,5 @@ def coin_api_get_exchange_rates(assets, start_date, end_date):
     else:
         print("L'appel à l'API a retourné une erreur:", response.status_code)
         return None
+def nasser();
+    return 0
