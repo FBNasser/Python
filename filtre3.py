@@ -1,4 +1,4 @@
-def filter_inconsistent_rate_values_tst_30(input_rates):
+def filter_inconsistent_rate_values_tst_301(input_rates):
     if len(input_rates) < 2:
         return input_rates
     filtered_rates = []
