@@ -34,6 +34,7 @@ headers = {'X-CoinAPI-Key': API_KEY}
 # start : 1/1/2021
 # End : 27/5/2021
 # -> [[1/1/2021, 10/04/2021], [11/04/2021, 27/5/2021]]
+#def get_dates_intervals(date_start, date_end, max_days):
 def get_dates_intervals(date_start, date_end, max_days):
     diff = date_end-date_start
     diff_days = diff.days
